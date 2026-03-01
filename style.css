@@ -1,0 +1,45 @@
+:root {
+    --dark-bg: #0f0f0f;
+    --card-bg: #1a1a1a;
+    --gold: #ffcc00;
+    --text-white: #ffffff;
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--text-white);
+    font-family: 'Poppins', sans-serif;
+}
+
+.gold-gradient-btn {
+    background: linear-gradient(45deg, #ffcc00, #ff9900);
+    border: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.gold-gradient-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 204, 0, 0.4);
+}
+
+.plan-card {
+    background: var(--card-bg);
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.plan-card:hover {
+    border-color: var(--gold);
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #1a1a1a 0%, #252525 100%);
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid var(--gold);
+}
